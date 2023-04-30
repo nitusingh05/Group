@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Maven/LastFmTesting/.idea">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://www.last.fm/"/>
+        <classes>
+            <class name="org.last.fm.FakeLoginTest"/>
+            <class name="org.last.fm.LoginTest"/>
+            <class name="org.last.fm.LoginCheckTest"/>
+            <class name="org.last.fm.AddPlaylistTest"/>
+            <class name="org.last.fm.EditDetailsOfPlayistTest"/>
+            <class name="org.last.fm.AddTrackinPlaylistTest"/>
+            <class name="org.last.fm.RemoveSongFromPlaylistTest"/>
+            <class name="org.last.fm.DeletePlaylistTest"/>
+            <class name="org.last.fm.LogOutTest"/>
+
+        </classes>
+    </test>
+</suite>

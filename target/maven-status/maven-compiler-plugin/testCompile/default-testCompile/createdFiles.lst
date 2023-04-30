@@ -1,0 +1,11 @@
+org\last\fm\AddPlaylistTest.class
+org\last\fm\RemoveSongFromPlaylistTest.class
+org\last\fm\EditDetailsOfPlayistTest.class
+org\last\fm\LoginTest.class
+org\lastfm\project\LastFm.class
+org\last\fm\TestBase.class
+org\last\fm\AddTrackinPlaylistTest.class
+org\last\fm\LogOutTest.class
+org\last\fm\LoginCheckTest.class
+org\last\fm\DeletePlaylistTest.class
+org\last\fm\FakeLoginTest.class
